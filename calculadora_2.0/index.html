@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Calculadora 2.0
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="calculadora.ico">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+  </head>
+
+  <body>
+    <form action="" name="calc">
+      <div id="calculadora">
+        <input type="text" id="display" name="display">
+        <br><br>
+
+        <input type="button" value="7" class="button" onclick="button(value)">
+        <input type="button" value="8" class="button" onclick="button(value)">
+        <input type="button" value="9" class="button" onclick="button(value)">
+        <input type="button" value="/" class="button" onclick="button(value)">
+        <br><br>
+
+        <input type="button" value="4" class="button" onclick="button(value)">
+        <input type="button" value="5" class="button" onclick="button(value)">
+        <input type="button" value="6" class="button" onclick="button(value)">
+        <input type="button" value="*" class="button" onclick="button(value)">
+        <br><br>
+
+        <input type="button" value="1" class="button" onclick="button(value)">
+        <input type="button" value="2" class="button" onclick="button(value)">
+        <input type="button" value="3" class="button" onclick="button(value)">
+        <input type="button" value="-" class="button" onclick="button(value)">
+        <br><br>
+
+        <input type="button" value="C" class="button" onclick="reset()">
+        <input type="button" value="0" class="button" onclick="button(value)">
+        <input type="button" value="=" class="button" onclick="calculate()">
+        <input type="button" value="+" class="button" onclick="button(value)">
+        <br><br>
+      </div>
+    </form>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+#calculadora{
+    width: 270px;
+    background-color: rebeccapurple;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+#display {
+    width: 246px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: aliceblue;
+}
+
+
+.button {
+    width: 60px;
+    height: 60px;
+    color: white;
+    background-color: darkslategray;
+    font-size: 30px;
+    border-radius: 10px;
+}
