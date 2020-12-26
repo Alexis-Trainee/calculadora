@@ -2,44 +2,46 @@
 <html>
   <head>
     <title>
-      Calculadora
-      </title>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="shortcut icon" href="calculadora.ico">
-      <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+      Calculadora 2.0
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="calculadora.ico">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
   </head>
 
   <body>
+    <form action="" name="calc">
+      <div id="calculadora">
+        <input type="text" id="display" name="display">
+        <br><br>
 
-    <input type="text" id="display">
+        <input type="button" value="7" class="button" onclick="button(value)">
+        <input type="button" value="8" class="button" onclick="button(value)">
+        <input type="button" value="9" class="button" onclick="button(value)">
+        <input type="button" value="/" class="button" onclick="button(value)">
+        <br><br>
 
-    <br><br>
+        <input type="button" value="4" class="button" onclick="button(value)">
+        <input type="button" value="5" class="button" onclick="button(value)">
+        <input type="button" value="6" class="button" onclick="button(value)">
+        <input type="button" value="*" class="button" onclick="button(value)">
+        <br><br>
 
-    <input type="submit" class="button" value="C" onclick="clear();">
-    <input type="submit" class="button" value="1" onclick="number(1);">
-    <input type="submit" class="button" value="2" onclick="number(2);">
-    <input type="submit" class="button" value="3">
-    <input type="submit" class="button" value="/">
-    <br><br>
+        <input type="button" value="1" class="button" onclick="button(value)">
+        <input type="button" value="2" class="button" onclick="button(value)">
+        <input type="button" value="3" class="button" onclick="button(value)">
+        <input type="button" value="-" class="button" onclick="button(value)">
+        <br><br>
 
-    <input type="submit" class="button" value="4">
-    <input type="submit" class="button" value="5">
-    <input type="submit" class="button" value="6">
-    <input type="submit" class="button" value="*">
-    <br><br>
+        <input type="button" value="C" class="button" onclick="reset()">
+        <input type="button" value="0" class="button" onclick="button(value)">
+        <input type="button" value="=" class="button" onclick="calculate()">
+        <input type="button" value="+" class="button" onclick="button(value)">
+        <br><br>
+      </div>
+    </form>
 
-    <input type="submit" class="button" value="7">
-    <input type="submit" class="button" value="8">
-    <input type="submit" class="button" value="9">
-    <input type="submit" class="button" value="+">
-    <br><br>
-
-    <input type="submit" class="button" value="0">
-    <input type="submit" class="button" value="=">
-    <input type="submit" class="button" value="-">
-    <br>
-
-      <script type="text/javascript" src="script.js"></script>
-    </body>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>

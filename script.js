@@ -1,9 +1,15 @@
-function clear(){
-    document.getElementById('display').reset('value');
+let valor;
+let result;
+
+function button(num){
+    valor = document.calc.display.value += num;
 }
 
-function number(value){
-    document.getElementById('display').value += value;
+function reset() {
+    document.calc.display;
 }
 
-
+function calculate(){
+    result = eval(valor);
+    document.calc.display.value = result;
+}
